@@ -38,10 +38,10 @@ const Sidebar = () => {
       <div className="flex items-center justify-center py-8 w-full">
         <Image src={Logo} alt="Dexter Logo" />
       </div>
-      <ul className="font-extralight mt-8 flex flex-col gap-8">
+      <ul className="font-extralight mt-8 flex flex-col md:gap-8 gap-16">
         <Link
           href={"/"}
-          className={`flex flex-row items-center pl-6 gap-2 cursor-pointer text-sm hover:text-gray-500 duration-300 ease-in-out `}
+          className={`flex flex-row items-center pl-6 gap-2 cursor-pointer text-sm hover:text-gray-500 duration-300 ease-in-out`}
         >
           <IoHomeOutline size={18} />
           Home

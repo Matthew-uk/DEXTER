@@ -6,11 +6,11 @@ import LineChart from "@/assets/LineChart.png";
 
 const DexterUsers = () => {
   return (
-    <div className="flex flex-col w-1/2 gap-8">
+    <div className="flex flex-col md:w-1/2 w-full gap-8">
       {/* Dexter Users Nav */}
-      <div className="flex flex-row justify-between items-center p-2 bg-white rounded-md w-11/12">
-        <h2 className="font-light text-lg">Users on Dexter App</h2>
-        <div className="flex flex-row gap-4">
+      <div className="flex flex-row justify-between gap-6 items-center p-2 bg-white rounded-md md:w-11/12 w-full">
+        <h2 className="font-light text-sm md:text-lg">Users on Dexter App</h2>
+        <div className="flex flex-row gap-2 md:gap-4">
           <BiCalendar size={20} className="cursor-pointer" />
           <h2 className="font-light text-sm">Last 6 Months</h2>
           <BiChevronLeft

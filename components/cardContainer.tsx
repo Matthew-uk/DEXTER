@@ -8,7 +8,7 @@ import { LuUsers2 } from "react-icons/lu";
 
 const CardContainer = () => {
   return (
-    <div className="flex flex-row gap-8 h-[200px]">
+    <div className="flex md:flex-row flex-col gap-8 md:h-[200px]">
       {/* First */}
       <Card
         Logo={MdOutlineGroups}
