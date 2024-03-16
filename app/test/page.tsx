@@ -8,12 +8,8 @@ interface User {
   first_name: string;
   last_name: string;
   email: string;
-  shop: {
-    // Define shop properties
-  } | null;
-  business: {
-    // Define business properties
-  } | null;
+  shop: {} | null;
+  business: {} | null;
 }
 
 const DashboardPage: React.FC = () => {
@@ -42,7 +38,7 @@ const DashboardPage: React.FC = () => {
   const toggleUserTable = () => {
     setShowUserTable(!showUserTable);
     if (showUserTable) {
-      setIncompleteUsersOnly(false); // Reset filter when hiding the table
+      setIncompleteUsersOnly(false);
     }
   };
 

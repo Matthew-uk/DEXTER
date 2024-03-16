@@ -3,7 +3,7 @@ import { CiSquareChevLeft } from "react-icons/ci";
 import { CiSquareChevRight } from "react-icons/ci";
 
 const PagesComponent = () => {
-  const numbers = [1, 2, 3, 4, 5, 6];
+  // const numbers = [1, 2, 3, 4, 5, 6];
   return (
     <div className="flex flex-row justify-between items-center font-extralight text-xs p-2 bg-white rounded-md mb-2 shadow">
       <div>1-11 of 875 items</div>

@@ -21,12 +21,13 @@ const Sidebar = () => {
         <Image src={Logo} alt="Dexter Logo" />
       </div>
       <ul className="font-extralight mt-8 flex flex-col gap-8">
-        <li
-          className={`flex flex-row items-center pl-6 gap-2 cursor-pointer text-sm hover:text-gray-500 duration-300 ease-in-out`}
+        <Link
+          href={"/"}
+          className={`flex flex-row items-center pl-6 gap-2 cursor-pointer text-sm hover:text-gray-500 duration-300 ease-in-out `}
         >
           <IoHomeOutline size={18} />
           Home
-        </li>
+        </Link>
         <li
           className={`flex flex-row items-center pl-6 gap-2 cursor-pointer text-sm hover:text-gray-500 duration-300 ease-in-out`}
         >
