@@ -18,7 +18,7 @@ const Navbar: React.FC<NavbarProps> = ({ title }) => {
           size={25}
           className="bg-dexter-green rounded-full text-white p-1 cursor-pointer"
         />
-        <h2 className="text-sm text-center">Admin</h2>
+        <h2 className="text-sm text-center font-extralight">Admin</h2>
         <IoChevronDown className="cursor-pointer" />
       </div>
     </div>

@@ -55,7 +55,7 @@ const UsersTable: React.FC = () => {
     : data;
 
   return (
-    <div className="">
+    <div className="mt-6">
       <div>
         <label className="text-sm flex gap-2 items-center justify-center">
           Show Only Incomplete Users:
