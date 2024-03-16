@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Poppins, Allison } from "next/font/google";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./globals.css";
 
 const inter = Inter({
@@ -40,6 +42,18 @@ export default function RootLayout({
       <body
         className={`${inter.className} ${poppins.variable} ${allison.variable}`}
       >
+        <ToastContainer
+          position="top-right"
+          autoClose={2000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          // theme="colored"
+        />
         {children}
       </body>
     </html>
